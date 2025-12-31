@@ -30,7 +30,7 @@ module.exports = {
                 bot_cap: 32,
             }
         },
-        {
+       /* {
             share_client_server: false, // Only one server at a time can have this enabled.
             // The above is required if your VM (the machine that hosts the website stuff) doesn't support multi-ports and forces everything through the main server.
             // This also overrides the below HOST and PORT settings to be identical to the main server's HOST/PORT (by default, 3000).
@@ -65,7 +65,7 @@ module.exports = {
                     }
                 },
             }
-        },
+        },*/
     ],
 
     // Web Server
