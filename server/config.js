@@ -15,7 +15,7 @@ module.exports = {
             // The above is required if your VM (the machine that hosts the website stuff) doesn't support multi-ports and forces everything through the main server.
             // This also overrides the below HOST and PORT settings to be identical to the main server's HOST/PORT (by default, 3000).
 
-            host: "osarewritebutprobablybad.onrender.com:3001",
+            host: "osarewritebutprobablybad.onrender.com",
  // Server host location.
             port: 3001, // The port on the server.
             id: "loc", // (<host>/#<id>)
